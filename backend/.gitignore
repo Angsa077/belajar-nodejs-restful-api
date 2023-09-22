@@ -1,0 +1,47 @@
+# Dependency directories
+node_modules/
+.npm/
+.yarn/
+.pnpm/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache/
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore build output
+dist/
+out/
+build/
+bundle/
+
+# Ignore environment file
+.env
+
+# Ignore development config file
+config.development.json
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignore package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Ignore coverage output
+coverage/
+
+# Ignore end-to-end test videos
+*.mp4
